@@ -1,0 +1,47 @@
+﻿/**********************************************************************
+    app.css
+    Application styles.
+*/
+
+
+/* correct for .navbar-fixed-top*/
+body {
+    padding-top: 50px;
+}
+
+.row.illustrated {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row.illustrated > .col-xs-1, .row.illustrated > .col-sm-1, .row.illustrated > .col-md-1, .row.illustrated > .col-lg-1, .row.illustrated > .col-xs-2, .row.illustrated > .col-sm-2, .row.illustrated > .col-md-2, .row.illustrated > .col-lg-2, .row.illustrated > .col-xs-3, .row.illustrated > .col-sm-3, .row.illustrated > .col-md-3, .row.illustrated > .col-lg-3, .row.illustrated > .col-xs-4, .row.illustrated > .col-sm-4, .row.illustrated > .col-md-4, .row.illustrated > .col-lg-4, .row.illustrated > .col-xs-5, .row.illustrated > .col-sm-5, .row.illustrated > .col-md-5, .row.illustrated > .col-lg-5, .row.illustrated > .col-xs-6, .row.illustrated > .col-sm-6, .row.illustrated > .col-md-6, .row.illustrated > .col-lg-6, .row.illustrated > .col-xs-7, .row.illustrated > .col-sm-7, .row.illustrated > .col-md-7, .row.illustrated > .col-lg-7, .row.illustrated > .col-xs-8, .row.illustrated > .col-sm-8, .row.illustrated > .col-md-8, .row.illustrated > .col-lg-8, .row.illustrated > .col-xs-9, .row.illustrated > .col-sm-9, .row.illustrated > .col-md-9, .row.illustrated > .col-lg-9, .row.illustrated > .col-xs-10, .row.illustrated > .col-sm-10, .row.illustrated > .col-md-10, .row.illustrated > .col-lg-10, .row.illustrated > .col-xs-11, .row.illustrated > .col-sm-11, .row.illustrated > .col-md-11, .row.illustrated > .col-lg-11, .row.illustrated > .col-xs-12, .row.illustrated > .col-sm-12, .row.illustrated > .col-md-12, .row.illustrated > .col-lg-12 {
+    border: 1px solid #888;
+    padding: 10px;
+    background-color: #eee;
+    overflow: auto;
+}
+
+.size-chart {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    border: 1px solid #888;
+    padding: 3px;
+    opacity: 0.25;
+    font-size: 1em;
+
+    border-radius: 5px;
+
+    -moz-transition: all linear 0.25s;
+    -o-transition: all linear 0.25s;
+    -webkit-transition: all linear 0.25s;
+    transition: all linear 0.25s;
+}
+
+.size-chart:hover {
+    opacity: 1;
+    font-size: 2em;
+    padding: 8px;
+    color: #fff;
+    background-color: #337ab7;
+}

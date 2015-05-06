@@ -1,0 +1,14 @@
+{
+  "name": "brownbag.partIII",
+  "version": "0.0.0",
+  "description": "brownbag.partIII",
+  "main": "app.js",
+  "author": {
+    "name": "Robert Dennis",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.1"
+  }
+}
